@@ -492,3 +492,6 @@ function Example() {
         </CustomSelect>
     );
 }
+
+// $ExpectError
+<div>{{foo: 1}}</div>;
